@@ -10,7 +10,9 @@ var weapons = ['baseball bat', 'pool noodle', 'knife', 'toothpick',
                 'bubbles', 'microwave', 'hammer', 'feather duster', 'vase', 'banana'];
 
 for(var i = 1; i <= 100; i++){
-    
+  var accusations = document.createElement('h3');
+  document.body.appendChild(accusations);
+  var headers = document.createTextNode('Accusation ' + [i]);
+  accusations.appendChild(headers);
 }
-
-})
+});
